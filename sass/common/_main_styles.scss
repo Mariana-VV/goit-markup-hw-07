@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background: var(--white-color);
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .container {
+   width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+  }

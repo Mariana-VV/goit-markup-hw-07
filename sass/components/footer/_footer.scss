@@ -1,0 +1,19 @@
+footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer__div {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .footer__block:last-child {
+    margin-left: auto;
+  }
+  
+  .footer__block:not(:last-child) {
+    margin-right: 70px;
+  }
+  

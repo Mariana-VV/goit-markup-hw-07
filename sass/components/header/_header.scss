@@ -1,0 +1,24 @@
+/* --------------header--------------- */
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__block:nth-child(2) {
+  margin-left: 93px;
+}
+
+.header__block:nth-child(3) {
+  margin-left: auto;
+}
+
+
+
+
+
+/* --------------header--------------- */

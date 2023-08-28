@@ -1,0 +1,55 @@
+.header-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .header-contact__item:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  .header-contact__link {
+    display: inline-flex;
+    font-weight: 500;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--main-color);
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+  &:focus {
+    color: var(--style-color);
+  }
+  }
+  
+  .header-contact__icon {
+    fill: currentColor; /* берет от предка текущий цвет текста  */
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  
+  /* .contact-link::before {
+      content: "";
+      height: 15px;
+      width: 15px;
+      margin-right: 10px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    
+    .email::before {
+      background-image: url(/images/smartphone.svg);
+    }
+    
+    .phone::before {
+      background-image: url(/images/envelope.svg);
+    } */
+  
+  /* .email::before:hover,
+    .phone::before:hover {
+      background-color: var(--style-color);
+    } */
+  
