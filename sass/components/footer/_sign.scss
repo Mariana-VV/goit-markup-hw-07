@@ -12,19 +12,9 @@
   }
   
   
-  .footer__form button{
-  display: block;
-  margin-left: 12px;
-  background-color: var(--style-color);
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  color:white;
-  font-weight: 700;
-  font-size:16px;
-  letter-spacing: 6%;
-  text-align: center;
-  line-height: 1.88;
+  .footer__button {
+    @extend %button;
+    margin-left: 12px;
   }
   
   .footer__botton{

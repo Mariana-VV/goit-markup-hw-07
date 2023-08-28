@@ -119,22 +119,11 @@
     margin-right: 5px;
   }
   
-  .form__btn{
-    display: block;
-    width: 200px;
-    height: 50px;
-    background-color:var(--style-color);
-    color: #fff;
+  .form__btn {
+    @extend %button;
+
     margin-left: auto;
     margin-right: auto;
-  
-    border-radius: 4px;
-    border: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 6%;
-  text-align: center;
   }
   
   .form-input:focus ~ .icon{
@@ -159,7 +148,7 @@
   .policy-checkbox:checked + .checkbox-span
   {
   background-color: var(--style-color);
-    background-image: url(../images/checked.svg);
+    background-image: url(/images/checked.svg);
     background-size: contain;
     background-origin: border-box;
      

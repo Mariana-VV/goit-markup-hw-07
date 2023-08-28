@@ -1,8 +1,11 @@
 @import './utils/vars';
 @import './common/main_styles';
 @import './base/normalize';
-@import './components/header/header';
 @import './common/logo';
+@import './components/header/header';
+@import './common/button';
+@import './common/list';
+
 @import './components/header/nav';
 @import './components/header/headercontacts';
 @import './components/sections/hero';
@@ -12,8 +15,11 @@
 @import './components/sections/principles';
 @import './components/sections/team';
 @import './components/sections/clients';
+
 @import './components/sections/portfolio';
 @import './components/sections/filter';
+@import './common/overlay';
+
 @import './components/footer/footer';
 @import './components/footer/address';
 @import './components/footer/join';

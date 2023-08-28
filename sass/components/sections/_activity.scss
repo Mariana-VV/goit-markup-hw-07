@@ -15,9 +15,7 @@
   }
   
   .activity__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %list;
     margin-left: 0;
     margin-bottom: 0;
     margin-top: 0;

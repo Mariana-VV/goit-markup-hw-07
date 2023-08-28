@@ -1,7 +1,8 @@
 
 .principles__list {
-  display: flex;
-  justify-content: center;
+  @extend %list;
+  
+  align-items: normal;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -9,10 +10,10 @@
 .principles__item {
   align-items: center;
   width: 270px;
-}
 
-.principles__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .principles__div{
